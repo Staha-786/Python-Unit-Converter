@@ -1,8 +1,6 @@
 import streamlit as st
+
 def unit(value: float, unit_from: str, unit_to: str):
-    # print("value>>>",value)
-    # print("unit_from>>>",unit_from)
-    # print("unit_to>>>",unit_to)
 
     if unit_from ==  "kilometer" and unit_to == "meter":
         return value * 1000
